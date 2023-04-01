@@ -1,0 +1,16 @@
+environment: dev
+
+postgres:
+  database: postgres
+  username: postgres
+  password: 123456
+  host: localhost
+  port: "5432"
+  max_conn: 10
+  min_idle_conn: 5
+  max_retries: 2
+
+jwt:
+  issuer: mini wallet JWT App
+  exp: 1 # hour
+  sign_key: secret mini wallet
